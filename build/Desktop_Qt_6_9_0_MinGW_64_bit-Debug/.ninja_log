@@ -1,0 +1,27 @@
+# ninja log v6
+5	558	7663667050496310	TCPServer_autogen/timestamp	a795e2f501d19491
+5	558	7663667050496310	TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+5	558	7663667050496310	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a795e2f501d19491
+5	558	7663667050496310	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+566	1920	7663667051235970	CMakeFiles/TCPServer.dir/main.cpp.obj	c45029d1c3446103
+562	1967	7663667051205954	CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj	a56f45a2317e6058
+569	2054	7663667051269067	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	6cadfb07ee26daf0
+2055	2229	7663667066126473	TCPServer.exe	76b0a8aa37b08724
+8	211	7663672188006154	TCPServer_autogen/timestamp	a795e2f501d19491
+8	211	7663672188006154	TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+8	211	7663672188006154	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a795e2f501d19491
+8	211	7663672188006154	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+212	1581	7663672190035701	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	6cadfb07ee26daf0
+1581	1707	7663672203685728	TCPServer.exe	76b0a8aa37b08724
+40	219	7663672309207939	TCPServer_autogen/timestamp	a795e2f501d19491
+40	219	7663672309207939	TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+40	219	7663672309207939	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a795e2f501d19491
+40	219	7663672309207939	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+220	1599	7663672311010876	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	6cadfb07ee26daf0
+1599	1732	7663672324809020	TCPServer.exe	76b0a8aa37b08724
+36	201	7663672994643189	TCPServer_autogen/timestamp	a795e2f501d19491
+36	201	7663672994643189	TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+36	201	7663672994643189	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a795e2f501d19491
+36	201	7663672994643189	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a795e2f501d19491
+201	1575	7663672996301146	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	6cadfb07ee26daf0
+1575	1705	7663673010035741	TCPServer.exe	76b0a8aa37b08724
