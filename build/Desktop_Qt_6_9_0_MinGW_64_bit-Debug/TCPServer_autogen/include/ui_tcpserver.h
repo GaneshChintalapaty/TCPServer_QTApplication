@@ -31,22 +31,22 @@ public:
     QWidget *centralwidget;
     QWidget *horizontalLayoutWidget_3;
     QHBoxLayout *horizontalLayout_4;
-    QLabel *label;
-    QLineEdit *lineEdit;
-    QPushButton *pushButton_2;
+    QLabel *labelMessageToClient;
+    QLineEdit *msgToClient;
+    QPushButton *btnToSendMsgToClient;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout_3;
-    QTextBrowser *textBrowser;
+    QTextBrowser *dispMsgFromClient;
     QWidget *widget;
     QVBoxLayout *verticalLayout_2;
     QHBoxLayout *horizontalLayout_2;
     QLabel *labelIPAddress;
     QLineEdit *TCP_IP_Address;
     QHBoxLayout *horizontalLayout_3;
-    QLabel *labelPort;
     QSpacerItem *horizontalSpacer_2;
+    QLabel *labelPort;
     QLineEdit *TCP_Port;
-    QPushButton *pushButton;
+    QPushButton *btnToStartTCPServer;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -63,20 +63,20 @@ public:
         horizontalLayout_4 = new QHBoxLayout(horizontalLayoutWidget_3);
         horizontalLayout_4->setObjectName("horizontalLayout_4");
         horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(horizontalLayoutWidget_3);
-        label->setObjectName("label");
+        labelMessageToClient = new QLabel(horizontalLayoutWidget_3);
+        labelMessageToClient->setObjectName("labelMessageToClient");
 
-        horizontalLayout_4->addWidget(label);
+        horizontalLayout_4->addWidget(labelMessageToClient);
 
-        lineEdit = new QLineEdit(horizontalLayoutWidget_3);
-        lineEdit->setObjectName("lineEdit");
+        msgToClient = new QLineEdit(horizontalLayoutWidget_3);
+        msgToClient->setObjectName("msgToClient");
 
-        horizontalLayout_4->addWidget(lineEdit);
+        horizontalLayout_4->addWidget(msgToClient);
 
-        pushButton_2 = new QPushButton(horizontalLayoutWidget_3);
-        pushButton_2->setObjectName("pushButton_2");
+        btnToSendMsgToClient = new QPushButton(horizontalLayoutWidget_3);
+        btnToSendMsgToClient->setObjectName("btnToSendMsgToClient");
 
-        horizontalLayout_4->addWidget(pushButton_2);
+        horizontalLayout_4->addWidget(btnToSendMsgToClient);
 
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
@@ -84,10 +84,10 @@ public:
         verticalLayout_3 = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
-        textBrowser = new QTextBrowser(verticalLayoutWidget);
-        textBrowser->setObjectName("textBrowser");
+        dispMsgFromClient = new QTextBrowser(verticalLayoutWidget);
+        dispMsgFromClient->setObjectName("dispMsgFromClient");
 
-        verticalLayout_3->addWidget(textBrowser);
+        verticalLayout_3->addWidget(dispMsgFromClient);
 
         widget = new QWidget(centralwidget);
         widget->setObjectName("widget");
@@ -113,14 +113,14 @@ public:
 
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName("horizontalLayout_3");
+        horizontalSpacer_2 = new QSpacerItem(35, 20, QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout_3->addItem(horizontalSpacer_2);
+
         labelPort = new QLabel(widget);
         labelPort->setObjectName("labelPort");
 
         horizontalLayout_3->addWidget(labelPort);
-
-        horizontalSpacer_2 = new QSpacerItem(35, 20, QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout_3->addItem(horizontalSpacer_2);
 
         TCP_Port = new QLineEdit(widget);
         TCP_Port->setObjectName("TCP_Port");
@@ -128,10 +128,10 @@ public:
 
         horizontalLayout_3->addWidget(TCP_Port);
 
-        pushButton = new QPushButton(widget);
-        pushButton->setObjectName("pushButton");
+        btnToStartTCPServer = new QPushButton(widget);
+        btnToStartTCPServer->setObjectName("btnToStartTCPServer");
 
-        horizontalLayout_3->addWidget(pushButton);
+        horizontalLayout_3->addWidget(btnToStartTCPServer);
 
 
         verticalLayout_2->addLayout(horizontalLayout_3);
@@ -153,13 +153,13 @@ public:
     void retranslateUi(QMainWindow *TCPServer)
     {
         TCPServer->setWindowTitle(QCoreApplication::translate("TCPServer", "TCPServer", nullptr));
-        label->setText(QCoreApplication::translate("TCPServer", "Message: ", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("TCPServer", "Send", nullptr));
+        labelMessageToClient->setText(QCoreApplication::translate("TCPServer", "Message: ", nullptr));
+        btnToSendMsgToClient->setText(QCoreApplication::translate("TCPServer", "Send", nullptr));
         labelIPAddress->setText(QCoreApplication::translate("TCPServer", "IP Address: ", nullptr));
         TCP_IP_Address->setText(QCoreApplication::translate("TCPServer", "192.168.30.100", nullptr));
         labelPort->setText(QCoreApplication::translate("TCPServer", "Port: ", nullptr));
         TCP_Port->setText(QCoreApplication::translate("TCPServer", "6031", nullptr));
-        pushButton->setText(QCoreApplication::translate("TCPServer", "Connect", nullptr));
+        btnToStartTCPServer->setText(QCoreApplication::translate("TCPServer", "Connect", nullptr));
     } // retranslateUi
 
 };

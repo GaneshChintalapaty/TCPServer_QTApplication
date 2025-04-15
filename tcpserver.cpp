@@ -1,5 +1,7 @@
 #include "tcpserver.h"
 #include "ui_tcpserver.h"
+#include <QTcpServer>
+#include <QTcpSocket>
 
 TCPServer::TCPServer(QWidget *parent)
     : QMainWindow(parent)
@@ -12,3 +14,9 @@ TCPServer::~TCPServer()
 {
     delete ui;
 }
+
+void TCPServer::on_btnToStartTCPServer_clicked()
+{
+
+}
+

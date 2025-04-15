@@ -25,17 +25,17 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
-      <widget class="QLabel" name="label">
+      <widget class="QLabel" name="labelMessageToClient">
        <property name="text">
         <string>Message: </string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="msgToClient"/>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="btnToSendMsgToClient">
        <property name="text">
         <string>Send</string>
        </property>
@@ -54,7 +54,7 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
-      <widget class="QTextBrowser" name="textBrowser"/>
+      <widget class="QTextBrowser" name="dispMsgFromClient"/>
      </item>
     </layout>
    </widget>
@@ -92,13 +92,6 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
-        <widget class="QLabel" name="labelPort">
-         <property name="text">
-          <string>Port: </string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer name="horizontalSpacer_2">
          <property name="orientation">
           <enum>Qt::Orientation::Horizontal</enum>
@@ -115,6 +108,13 @@
         </spacer>
        </item>
        <item>
+        <widget class="QLabel" name="labelPort">
+         <property name="text">
+          <string>Port: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QLineEdit" name="TCP_Port">
          <property name="text">
           <string>6031</string>
@@ -125,7 +125,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="btnToStartTCPServer">
          <property name="text">
           <string>Connect</string>
          </property>
