@@ -17,6 +17,9 @@ public:
     TCPServer(QWidget *parent = nullptr);
     ~TCPServer();
 
+private slots:
+    void on_btnToStartTCPServer_clicked();
+
 private:
     Ui::TCPServer *ui;
 };
