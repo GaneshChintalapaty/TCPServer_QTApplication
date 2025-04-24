@@ -23,7 +23,7 @@ void TCPServer::startTCPServer(quint16 port)
 {
     tcpServer = new QTcpServer(this);
 
-    if(!tcpServer->listen(QHostAddress::Any, port));
+    if(!tcpServer->listen(QHostAddress::Any, port))
     {
         qDebug()<<"Server could not start!\n";
         ui->dispMsgFromClient->append("Failed to start server!");
