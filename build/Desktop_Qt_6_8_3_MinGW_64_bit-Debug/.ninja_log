@@ -1,0 +1,23 @@
+# ninja log v6
+10	1018	7671623308897352	TCPServer_autogen/timestamp	a4691bd431e5f32f
+10	1018	7671623308897352	TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+10	1018	7671623308897352	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a4691bd431e5f32f
+10	1018	7671623308897352	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+1022	4001	7671623309574087	CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj	51cbf8436d035864
+1032	4080	7671623309597063	CMakeFiles/TCPServer.dir/main.cpp.obj	f80f661ac410502e
+1042	4440	7671623309775101	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	adad129ef41a8070
+4440	4728	7671623343753689	TCPServer.exe	ed769c1c66077ea7
+34	768	7671726074973325	TCPServer_autogen/timestamp	a4691bd431e5f32f
+34	768	7671726074973325	TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+34	768	7671726074973325	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a4691bd431e5f32f
+34	768	7671726074973325	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+769	4415	7671726075753083	CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj	51cbf8436d035864
+793	4561	7671726076000586	CMakeFiles/TCPServer.dir/main.cpp.obj	f80f661ac410502e
+810	4747	7671726076168305	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	adad129ef41a8070
+4747	5013	7671726115542233	TCPServer.exe	ed769c1c66077ea7
+57	435	7671727096283774	TCPServer_autogen/timestamp	a4691bd431e5f32f
+57	435	7671727096283774	TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+57	435	7671727096283774	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a4691bd431e5f32f
+57	435	7671727096283774	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+436	2801	7671727100071742	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	adad129ef41a8070
+2801	3008	7671727123719359	TCPServer.exe	ed769c1c66077ea7

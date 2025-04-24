@@ -1,0 +1,9 @@
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/TCPServer.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/TCPServer_autogen_timestamp_deps.dir
+C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/TCPServer_autogen.dir
