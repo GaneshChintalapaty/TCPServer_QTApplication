@@ -101,9 +101,7 @@ void TCPServer::on_btnToStartTCPServer_clicked()
 
 void TCPServer::closeEvent(QCloseEvent *event)
 {
-    if (QMessageBox::question(this, "Exit",
-                              "Are you sure you want to exit?",
-                              QMessageBox::Yes | QMessageBox::No) == QMessageBox::Yes)
+    if (QMessageBox::question(this, "Exit", "Are you sure you want to exit?", QMessageBox::Yes | QMessageBox::No) == QMessageBox::Yes)
     {
         if (serverRunning) {
             stopTCPServer();
