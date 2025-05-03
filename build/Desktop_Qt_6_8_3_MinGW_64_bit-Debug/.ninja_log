@@ -45,3 +45,9 @@
 1000	3378	7679359057752398	CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj	51cbf8436d035864
 1020	3765	7679359058001684	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	adad129ef41a8070
 3765	4012	7679359085443655	TCPServer.exe	ed769c1c66077ea7
+96	345	7679853883997761	TCPServer_autogen/timestamp	a4691bd431e5f32f
+96	345	7679853883997761	TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+96	345	7679853883997761	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/timestamp	a4691bd431e5f32f
+96	345	7679853883997761	C:/GUIProjects/C++/TCPServer_QTApplication/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/TCPServer_autogen/mocs_compilation.cpp	a4691bd431e5f32f
+346	3177	7679853886489423	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	adad129ef41a8070
+3177	3431	7679853914805455	TCPServer.exe	ed769c1c66077ea7

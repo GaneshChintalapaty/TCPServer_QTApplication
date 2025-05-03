@@ -36,8 +36,10 @@ void TCPServer::startTCPServer(quint16 port)
 
     QString localIP;
     const QList<QHostAddress> &addresses = QNetworkInterface::allAddresses();
-    for (const QHostAddress &addr : addresses) {
-        if (addr.protocol() == QAbstractSocket::IPv4Protocol && !addr.isLoopback()) {
+    for (const QHostAddress &addr : addresses)
+    {
+        if (addr.protocol() == QAbstractSocket::IPv4Protocol && !addr.isLoopback())
+        {
             localIP = addr.toString();
             break;
         }
