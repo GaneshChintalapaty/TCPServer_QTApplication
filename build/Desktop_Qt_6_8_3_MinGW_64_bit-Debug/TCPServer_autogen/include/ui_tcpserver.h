@@ -105,6 +105,7 @@ public:
         TCP_IP_Address = new QLineEdit(layoutWidget);
         TCP_IP_Address->setObjectName("TCP_IP_Address");
         TCP_IP_Address->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        TCP_IP_Address->setReadOnly(true);
 
         horizontalLayout_2->addWidget(TCP_IP_Address);
 
