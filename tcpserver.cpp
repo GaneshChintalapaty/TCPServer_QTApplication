@@ -59,6 +59,19 @@ void TCPServer::startTCPServer(quint16 port)
     });
 }
 
+void TCPServer::sendMessageToClient(const QString &message)
+{
+    if (clientSocket && clientSocket->state() == QAbstractSocket::ConnectedState)
+    {
+        clientSocket->write(message.toUtf8());
+        ui->dispMsgFromClient->append("Server: " + message);
+    }
+    else
+    {
+        ui->dispMsgFromClient->append("No client connected.");
+    }
+}
+
 void TCPServer::stopTCPServer(void)
 {
     if(tcpServer)
@@ -101,3 +114,13 @@ void TCPServer::closeEvent(QCloseEvent *event)
         event->ignore();  // cancel closing
     }
 }
+
+void TCPServer::on_btnToSendMsgToClient_clicked()
+{
+    QString msg = ui->msgToClient->text();
+    if (!msg.isEmpty()) {
+        sendMessageToClient(msg);
+        ui->msgToClient->clear();
+    }
+}
+

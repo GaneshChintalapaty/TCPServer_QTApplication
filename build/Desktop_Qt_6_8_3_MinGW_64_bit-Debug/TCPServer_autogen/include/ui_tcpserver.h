@@ -54,7 +54,7 @@ public:
     {
         if (TCPServer->objectName().isEmpty())
             TCPServer->setObjectName("TCPServer");
-        TCPServer->resize(592, 400);
+        TCPServer->resize(592, 407);
         centralwidget = new QWidget(TCPServer);
         centralwidget->setObjectName("centralwidget");
         horizontalLayoutWidget_3 = new QWidget(centralwidget);

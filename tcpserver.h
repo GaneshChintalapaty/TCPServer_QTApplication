@@ -19,10 +19,13 @@ public:
     ~TCPServer();
 
     void startTCPServer(quint16 port);
+    void sendMessageToClient(const QString &message);
     void stopTCPServer(void);
 
 private slots:
     void on_btnToStartTCPServer_clicked();
+
+    void on_btnToSendMsgToClient_clicked();
 
 private:
     Ui::TCPServer *ui;
