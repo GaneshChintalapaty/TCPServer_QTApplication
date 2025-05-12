@@ -1,0 +1,21 @@
+# ninja log v6
+18	1748	7687876310536736	TCPServer_autogen/timestamp	a68d346faf8ea69a
+18	1748	7687876310536736	TCPServer_autogen/mocs_compilation.cpp	a68d346faf8ea69a
+18	1748	7687876310536736	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/TCPServer_autogen/timestamp	a68d346faf8ea69a
+18	1748	7687876310536736	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/TCPServer_autogen/mocs_compilation.cpp	a68d346faf8ea69a
+1768	5952	7687876312587888	CMakeFiles/TCPServer.dir/main.cpp.obj	870fe3adc40c8f0b
+1760	6008	7687876312509714	CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj	9be05cd723c19ef0
+1777	6896	7687876312671091	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	2731dfa903090065
+6897	7222	7687876363874735	TCPServer.exe	ad0fb85c4b5ee732
+61	165	7687876862558527	CMakeFiles/clean.additional	321391b2684b2653
+166	193	7687876863611680	clean	577b940aee94fbd7
+37	88	7687876885119785	CMakeFiles/clean.additional	321391b2684b2653
+89	108	7687876885641229	clean	577b940aee94fbd7
+50	1673	7687876902471952	TCPServer_autogen/timestamp	a68d346faf8ea69a
+50	1673	7687876902471952	TCPServer_autogen/mocs_compilation.cpp	a68d346faf8ea69a
+50	1673	7687876902471952	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/TCPServer_autogen/timestamp	a68d346faf8ea69a
+50	1673	7687876902471952	C:/Users/cp199/OneDrive/Documentos/QTProjects/TCPServer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/TCPServer_autogen/mocs_compilation.cpp	a68d346faf8ea69a
+1682	5821	7687876904216777	CMakeFiles/TCPServer.dir/main.cpp.obj	870fe3adc40c8f0b
+1675	5902	7687876904157151	CMakeFiles/TCPServer.dir/TCPServer_autogen/mocs_compilation.cpp.obj	9be05cd723c19ef0
+1689	6813	7687876904294287	CMakeFiles/TCPServer.dir/tcpserver.cpp.obj	2731dfa903090065
+6814	7157	7687876955541133	TCPServer.exe	ad0fb85c4b5ee732
